@@ -3,11 +3,11 @@ var tableData = data;
 
 // YOUR CODE HERE!
 var $tbody = document.querySelector("tbody");
-// renderTable renders the tableData to the tbody
+// renderTable 
 function renderTable() {
   $tbody.innerHTML = "";
   for (var i = 0; i < tableData.length; i++) {
-    // Get get the current UFO object and its fields
+    // Get get the current UFO objects
     var ufo = tableData[i];
     var observations = Object.keys(ufo);
     // Create a new row in the tbody, set the index to be i + startingIndex
